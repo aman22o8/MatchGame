@@ -1,0 +1,13 @@
+.list_item_container {
+  margin: 5px;
+}
+.thumbnailimage {
+  height: 45px;
+  width: 45px;
+}
+.item_button {
+  border: 0px solid;
+  background-color: transparent;
+  height: 50px;
+  width: 50px;
+}

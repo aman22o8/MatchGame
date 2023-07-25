@@ -1,0 +1,15 @@
+.tab_container1 {
+  margin-right: 10px;
+}
+.tab_button {
+  background-color: transparent;
+  border: 0px none;
+  font-size: 25px;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.myactivetab {
+  border-bottom: 1px solid #fec653;
+  color: #fec653;
+}

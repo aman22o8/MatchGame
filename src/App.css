@@ -1,0 +1,123 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.bg_container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/match-game-bg.png');
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+}
+.header_container {
+  padding: 0px 25px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #2c0e3a;
+  /* height: 120px; */
+}
+.logo {
+  height: 30px;
+  width: 120px;
+}
+.score_timer_container {
+  display: flex;
+  align-items: center;
+}
+
+.score {
+  font-size: 25px;
+  color: #ffffff;
+  font-family: 'roboto';
+}
+.timer_logo {
+  height: 20px;
+  width: 20px;
+  margin-left: 25px;
+  margin-right: 5px;
+}
+.timer_heading {
+  font-size: 25px;
+  color: #ffffff;
+  font-family: 'roboto';
+}
+.footer_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 30px;
+}
+.tab_container {
+  margin-left: 0px;
+  padding-left: 0px;
+  display: flex;
+  list-style-type: none;
+}
+.tab_item {
+  margin-left: 0px;
+  padding-left: 0px;
+  display: flex;
+  list-style-type: none;
+  flex-wrap: wrap;
+  max-width: 300px;
+}
+.scorecard_container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/match-game-score-card-lg-bg.png');
+  background-size: cover;
+  border-radius: 20px;
+  height: 470px;
+  width: 371px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  padding-bottom: 25px;
+}
+.score_logo {
+  height: 150px;
+  width: 170px;
+}
+.score_heading {
+  color: #ffffff;
+  font-size: 25px;
+  font-weight: 600;
+  margin: 5px;
+}
+.play_again_button {
+  cursor: pointer;
+  height: 35px;
+  width: 150px;
+  background-color: #cf60c8;
+  border: 0px none;
+  border-radius: 5px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.play_again {
+  color: #ffffff;
+  font-size: 15px;
+}
+.centerkaro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 80vh;
+  justify-content: center;
+}
+.imagemain {
+  height: 320px;
+  width: 450px;
+}
